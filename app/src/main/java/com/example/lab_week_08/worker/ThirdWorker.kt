@@ -5,7 +5,7 @@ import androidx.work.Data
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 
-class SecondWorker(
+class ThirdWorker(
     context: Context,
     workerParams: WorkerParameters
 ) : Worker(context, workerParams) {
@@ -22,7 +22,7 @@ class SecondWorker(
     }
 
     companion object {
-        const val INPUT_DATA_ID = "inId2"
-        const val OUTPUT_DATA_ID = "outId2"
+        const val INPUT_DATA_ID = "inId3"
+        const val OUTPUT_DATA_ID = "outId3"
     }
 }
